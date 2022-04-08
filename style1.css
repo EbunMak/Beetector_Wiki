@@ -14,6 +14,29 @@ h1 {
   margin-left: 20px;
 }
 
+ul.a {
+  list-style-type: none;
+  background-color: #000000;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+}
+
+li.a {
+  float: left;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+}
+
+li.a a:hover {
+  background-color: #0A3080;
+}
+
   /* #important {
     color: #C57400;
   #important {
