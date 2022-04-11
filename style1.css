@@ -12,6 +12,21 @@ body {
 h1 {
   color: #0A3080;
   margin-left: 20px;
+  font-size: 60px;
+}
+
+.header {
+  padding-top: 15rem;
+  padding-bottom: 10rem;
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  background: linear-gradient(to left bottom, #f5f959, #ffd157, #ffab74, #ff8f9a, #ff83bc, #ff82bd, #ff80bf, #ff7fc0, #ff83a2, #ff8e85, #ff9f6e, #fbb25f);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+
 }
 
 .navbar-brand{
