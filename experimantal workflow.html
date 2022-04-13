@@ -62,96 +62,190 @@
       The system we plan on testing is called the Aptamer-Based Cell-free Detection (ABCD) system, it detects target proteins, and in the study, they targeted epithelial cell adhesion molecule proteins (EpCAM) as an example. We would use this system for our target protein which is Spla as previously mentioned.
       Ideally, we would combine the ABCD system with CRISPR-Cas12a so that we could have both a recognition probe and a signal amplifier.
       So now on to the actual experiments,
+      <br>
+      First, we would have to synthesize oligonucleotides:
+      <br>
       </p>
-
+      <img src="table1.png" style="margin-left:15%; margin-right:15%;" height=500px alt="table" class="center" >
       <p class="body-font" style="margin-left:10%; margin-right:10%;">
       Then we have to prepare various buffers and reagents as seen below:
     </p>
         <p style="margin-left:15%; margin-right:15%; font-size:20px">
+          <br>
       - Prepare nucleic acid dye, electrode (in the study they did streptavidin-coated Fe3O4 magnetic beads) but an electrode is a potentially better option because ​​the double-strand complex can be immobilized. Additionally, we need to prepare Spla, AsCas12a protein, DNase I, and premix powder of 1× PBS.
       <br>
+      <br>
       - We also have to prepare Duplexing Buffer (used in forming double-strand complex) by adding 5 mM MgCl2 into 1× PBS buffer.
+      <br>
+      <br>
       - We have to prepare the Washing and Binding Buffer which is used in washing magnetic beads and binding the double-strand complex onto electrodes - this contains 20 mM Tris-HCl, 1 M NaCl, 1 mM EDTA, 0.02% Triton X-100; pH 7.8.
+      <br>
+      <br>
       - We have to prepare Incubation Buffer which is used in binding aptamer and target protein) and is prepared by adding 0.05 mM MgCl2 into 1× PBS buffer.
+      <br>
+      <br>
       - Prepare 5× Trans-cleavage Buffer (used in reactions that Cas12a involved) contained 100 mM Tris-HCl, 500 mM KCl, 25 mM MgCl2, 5 mM DTT, 25% glycerol, 250 μg/mL heparin; pH 7.5
+      <br>
+      <br>
       - Lastly, we have to make sure that all buffers are filtered before use.
+      <br>
+      </p>
 
+      <img src="preparation.png" style="margin-left:30%; margin-right:15%;" height=500px alt="table"  >
+      <p class="body-font" style="margin-left:10%; margin-right:10%;">
+      Next up we have to run our agarose gel electrophoresis and perform a molecular hybridization
+      Procedure:
+      </p>
+      <p class="body-font" style="margin-left:15%; margin-right:10%;">
+      - Mix equal equivalent (100 pmol) of aptamer (SYL3C-Biotin) and C3-FAM/C4-FAM mixed
+      <br>
+      <br>
+      - Heat to 95 °C for denaturing for 10 min.
+      <br>
+      <br>
+      - Anneal to room temperature slowly.
+      <br>
+      <br>
+      - Perform agarose (3%) gel electrophoresis subsequently with nucleic acid dye supplemented in advance when making the gel
+      <br>
+      <br>
+      - Obtain gel image via Bio-Rad Molecular Imager® Gel Doc™ XR System.
+      </p>
+
+      <p class="body-font" style="margin-left:10%; margin-right:10%;">
+      Then we have to do a fluorescence anisotropy:
+      </p>
+
+      <p class="body-font" style="margin-left:10%; margin-right:10%;">
+      Procedure:
+      </p>
+
+      <p class="body-font" style="margin-left:15%; margin-right:10%;">
+      - Mix 100 pmol aptamer (SYL3C-FAM) with 55 pmol Spla in Incubation Buffer to the volume of 200 μL.
+      <br>
+      <br>
+      - Then incubate the reaction system at 37 °C for 40 min.
+      <br>
+      <br>
+      - Measure the fluorescence intensity of parallel/vertical direction by Shimadzu® RF-6000. In the Chen et al. study, the polarizers were from a pair of 3D glasses.
+      <br>
+      <br>
+      - Attach a polarizer to the exit of the excitation light, and attach another polarizer to the receiving inlet of the emission light to make sure the polarization directions of the two polarizers were vertical/parallel.
+      <br>
+      <br>
+      - For reference: The excitation wavelength is 495 nm, and the range of emission wavelength is from 500 nm to 600 nm.
+      <br>
+      <br>
+      - Use Incubation Buffer as the control group to replace the Spla in this test.
+      </p>
+
+      <p class="body-font" style="margin-left:15%; margin-right:10%;">
+      Then a competition reaction,
       </p>
 
 
+      <p class="body-font" style="margin-left:10%; margin-right:10%;">
+      Procedure:
+      </p>
 
-<p class="body-font" style="margin-left:10%; margin-right:10%;">
-Next up we have to run our agarose gel electrophoresis and perform a molecular hybridization
-Procedure:
-</p>
-<p class="body-font" style="margin-left:15%; margin-right:10%;">
-- Mix equal equivalent (100 pmol) of aptamer (SYL3C-Biotin) and C3-FAM/C4-FAM mixed
-- Heat to 95 °C for denaturing for 10 min.
-- Anneal to room temperature slowly.
-- Perform agarose (3%) gel electrophoresis subsequently with nucleic acid dye supplemented in advance when making the gel
-- Obtain gel image via Bio-Rad Molecular Imager® Gel Doc™ XR System.
-</p>
+      <p class="body-font" style="margin-left:15%; margin-right:10%;">
+        - Use the aptamer (SYL3C-Biotin) and C3-FAM to form a double-strand complex by molecular hybridization.
+        <br>
+        <br>
+        - Use the electrode with an appropriate volume and wash them using the Washing and Binding Buffer according to the manual of electrodes.
+        <br>
+        <br>
+        - Then add the Incubation Buffer for the competition reaction followed by supplementing 20 pmol Spla.
+        <br>
+        <br>
+        - After incubation at room temperature for 40 min, remove the supernatant of the reaction system to measure fluorescence intensity by Shimadzu® RF-6000.
+        <br>
+        <br>
+        - For reference: The excitation wavelength is 495 nm, and the range of emission wavelength is from 500 nm to 600 nm.
+        <br>
+        <br>
+        - The Positive Control is C3-FAM to show the obvious high fluorescence signal.
+      </p>
 
-<p class="body-font" style="margin-left:10%; margin-right:10%;">
-Then we have to do a fluorescence anisotropy:
-</p>
+      <p class="body-font" style="margin-left:10%; margin-right:10%;">
+      Then a trans-cleavage activity of Cas12a
+      </p>
 
-<p class="body-font" style="margin-left:10%; margin-right:10%;">
-Procedure:
-</p>
+      <p class="body-font" style="margin-left:15%; margin-right:10%;">
+        - Use various concentrations (20, 2, and 0.2 pmol) of C3 to activate the trans-cleavage activity of Cas12a.
+        <br>
+        <br>
+        - Pre-mix 1 pmol AsCas12a, 2 pmol crRNA-C3, and ssDNA reporter for 30 min at room temperature.
+        <br>
+        <br>
+        - Then add C3 and 5× Trans-cleavage Buffer to reach a final volume of 200 μL.
+        <br>
+        <br>
+        - Measure the fluorescence intensity immediately by Tecan Infinite® M200 Pro.
+        <br>
+        <br>
+        - For reference: The excitation wavelength is 485 nm, and the emission wavelength is 535 nm. Recording time was set as 440 s and interval time was set as 20 s.
+        <br>
+        <br>
+        - Use DNase I as the Positive Control to cut off the ssDNA reporter in this test.
+      </p>
 
-<p class="body-font" style="margin-left:15%; margin-right:10%;">
-Mix 100 pmol aptamer (SYL3C-FAM) with 55 pmol Spla in Incubation Buffer to the volume of 200 μL.
-Then incubate the reaction system at 37 °C for 40 min.
-Measure the fluorescence intensity of parallel/vertical direction by Shimadzu® RF-6000. In the Chen et al. study, the polarizers were from a pair of 3D glasses.
-Attach a polarizer to the exit of the excitation light, and attach another polarizer to the receiving inlet of the emission light to make sure the polarization directions of the two polarizers were vertical/parallel.
-For reference: The excitation wavelength is 495 nm, and the range of emission wavelength is from 500 nm to 600 nm.
-Use Incubation Buffer as the control group to replace the Spla in this test.
-</p>
+      <p class="body-font" style="margin-left:10%; margin-right:10%;">
+      And lastly, an integrated experiment:
+      </p>
 
-<p class="body-font" style="margin-left:15%; margin-right:10%;">
-Then a competition reaction,
-</p>
+      <p class="body-font" style="margin-left:15%; margin-right:10%;">
+        - Use the aptamer (SYL3C-Biotin) and C3 to form a double-strand complex by molecular hybridization.
+        <br>
+        <br>
+        - Use electrodes of appropriate volume and wash using the Washing and Binding Buffer according to the manual of electrodes.
+        <br>
+        <br>
+        - Then add the Incubation Buffer for the competition reaction followed by supplementing varying moles (10, 15, and 20 pmol) of Spla.
+        <br>
+        <br>
+        - After incubation at room temperature for 40 min, remove the supernatant of the reaction system and add in the pre-mix of 1 pmol AsCas12a, 2 pmol crRNA-C3, and ssDNA reporter in 5× Trans-cleavage Buffer.
+        <br>
+        <br>
+        - Measure the fluorescence intensity immediately by Tecan Infinite® M200 Pro.
+        <br>
+        <br>
+        - For reference: The excitation wavelength is 485 nm, and the emission wavelength is 535 nm. Recording time was set as 1180 s and interval time was set as 20 s.
+      </p>
 
+<img src="experiment visual.png" style="margin-left:30%; margin-right:15%;" height=500px alt="table"  >
 
-<p class="body-font" style="margin-left:10%; margin-right:10%;">
-Procedure:
-</p>
+      <p class="body-font" style="margin-left:10%; margin-right:10%;">
+      Challenges & Considerations for Replication
+      </p>
 
-<p class="body-font" style="margin-left:15%; margin-right:10%;">
-  Use the aptamer (SYL3C-Biotin) and C3-FAM to form a double-strand complex by molecular hybridization.
-  Use the electrode with an appropriate volume and wash them using the Washing and Binding Buffer according to the manual of electrodes.
-  Then add the Incubation Buffer for the competition reaction followed by supplementing 20 pmol Spla.
-  After incubation at room temperature for 40 min, remove the supernatant of the reaction system to measure fluorescence intensity by Shimadzu® RF-6000.
-  For reference: The excitation wavelength is 495 nm, and the range of emission wavelength is from 500 nm to 600 nm.
-  The Positive Control is C3-FAM to show the obvious high fluorescence signal.
-</p>
+      <p class="body-font" style="margin-left:15%; margin-right:10%;">
+      - The low stability of crRNA limits its application, and is the largest practical application challenge for the ABCD system
+      <br>
+      <br>
+      - Though there is no example for Cas12a now, chemical modification has been proved efficient in increasing Cas9′s gRNA stability
+      <br>
+      <br>
+      - The complementary strand binding to aptamer depends not only on the number of complementary nucleotides but also the salt concentration
+      <br>
+      <br>
+      - ABCD system's stability may be affected by salt concentration, pH, and temperature; Using the same buffer conditions and temperature in aptamer selecting will greatly reduce the associated challenges.
+      <br>
+      <br>
+      - Additionally, identifying new aptamers with higher affinity and specificity to the target molecules will improve the efficiency of the ABCD system.
+      <br>
+      <br>
+      - Modification of RNA's nucleotides with functional groups would increase its stability
+      <br>
+      <br>
+      - Experiments should be replicated with varying volumes and incubation times.
+      </p>
 
-<p class="body-font" style="margin-left:10%; margin-right:10%;">
-Then a trans-cleavage activity of Cas12a
-</p>
-
-<p class="body-font" style="margin-left:15%; margin-right:10%;">
-  Use various concentrations (20, 2, and 0.2 pmol) of C3 to activate the trans-cleavage activity of Cas12a.
-  Pre-mix 1 pmol AsCas12a, 2 pmol crRNA-C3, and ssDNA reporter for 30 min at room temperature.
-  Then add C3 and 5× Trans-cleavage Buffer to reach a final volume of 200 μL.
-  Measure the fluorescence intensity immediately by Tecan Infinite® M200 Pro.
-  For reference: The excitation wavelength is 485 nm, and the emission wavelength is 535 nm. Recording time was set as 440 s and interval time was set as 20 s.
-  Use DNase I as the Positive Control to cut off the ssDNA reporter in this test.
-</p>
-
-<p class="body-font" style="margin-left:10%; margin-right:10%;">
-And lastly, an integrated experiment:
-</p>
-
-<p class="body-font" style="margin-left:15%; margin-right:10%;">
-  Use the aptamer (SYL3C-Biotin) and C3 to form a double-strand complex by molecular hybridization.
-  Use electrodes of appropriate volume and wash using the Washing and Binding Buffer according to the manual of electrodes.
-  Then add the Incubation Buffer for the competition reaction followed by supplementing varying moles (10, 15, and 20 pmol) of Spla.
-  After incubation at room temperature for 40 min, remove the supernatant of the reaction system and add in the pre-mix of 1 pmol AsCas12a, 2 pmol crRNA-C3, and ssDNA reporter in 5× Trans-cleavage Buffer.
-  Measure the fluorescence intensity immediately by Tecan Infinite® M200 Pro.
-  For reference: The excitation wavelength is 485 nm, and the emission wavelength is 535 nm. Recording time was set as 1180 s and interval time was set as 20 s.
-</p>
+      <p class="body-font" style="margin-left:10%; margin-right:10%;">
+        References:
+        <br>
+        Chen, J., Zhuang, X., Zheng, J., Yang, R., Wu, F., Zhang, A., & Fang, B. (2021). Aptamer-based cell-free detection system to detect target protein. Synthetic and systems biotechnology, 6(3), 209-215.
+      </p>
 
 </div>
 </body>
