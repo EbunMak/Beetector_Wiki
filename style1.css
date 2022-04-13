@@ -1,6 +1,6 @@
 
 body {
-    background-color: #ffffb3;
+    background-color: #FFFFFF;
 }
 
 h1 {
@@ -44,7 +44,7 @@ h1 {
 }
 
 .navbar-dark{
-  background:black;
+  background:#20124D;
 }
 .nav-item{
   color: red;
