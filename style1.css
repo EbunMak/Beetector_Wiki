@@ -57,7 +57,9 @@ h1 {
   padding: 5px 30px;
   text-decoration: none;
 }
-
+.banner-shadow{
+  text-shadow: 6px 6px 0px rgba(255, 145, 93,0.9);
+}
 .shadow-text {
   color: rgba(255,255,255,0.8s);
  text-shadow: 3px 2px 3px rgba(255, 145, 93,0.6);
