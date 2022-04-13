@@ -10,8 +10,8 @@ h1 {
 }
 
 .header {
-  padding-top: 25rem;
-  padding-bottom: 20rem;
+  padding-top: 15rem;
+  padding-bottom: 10rem;
   text-align: center;
   color: black;
   font-size: 40px;
@@ -40,11 +40,11 @@ h1 {
 }
 .navbar-brand{
   font-size: 100 !important;
-  color: #ffff1a!important;
+  color:#ff915d!important;
 }
 
 .navbar-dark{
-  background:#20124D;
+  background: black; /*#20124D;*/
 }
 .nav-item{
   color: red;
